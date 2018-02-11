@@ -5,8 +5,8 @@ def countdown
   while seconds < 10
     puts "#{seconds} SECOND(S)!"
     seconds += 1
-    return "HAPPY NEW YEAR!"
   end
+    return "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep
